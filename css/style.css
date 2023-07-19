@@ -252,10 +252,10 @@ main {
 }
 
 .frame-container:hover, .score-container:hover {
-	filter: drop-shadow(3px 3px white)
+	/* filter: drop-shadow(3px 3px white)
 			drop-shadow(-3px -3px white)
 			drop-shadow(3px -3px white)
-			drop-shadow(-3px 3px white);
+			drop-shadow(-3px 3px white); */
 }
 
 .frame-fullscreen {
