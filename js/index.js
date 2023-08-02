@@ -3,6 +3,11 @@
  * I wasn't configuring babel/webpack for a one off fun project.
  */
 	var contestantNames = ["AMANDA", "BOBBY", "DADDIO", "DOUG", "JAY", "MOMMIO"];
+
+	if(!confirm("Is Amanda here?\rOK for yes, Cancel for no")) {
+		contestantNames[0] = "KYLEE";
+	}
+
     var currentContestant = 0;
 
 // (function() {
